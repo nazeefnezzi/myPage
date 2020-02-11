@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contactme</title>
+    <!--bootstrap-->
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/darkly/bootstrap.min.css" rel="stylesheet" integrity="sha384-rCA2D+D9QXuP2TomtQwd+uP50EHjpafN+wruul0sXZzX/Da7Txn4tB9aLMZV4DZm" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/894c4fadf2.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="../scss/main.css">
+
+</head>
+<body>
+
+    <header>
+        <div class="menu-btn">
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+        </div>
+        <nav class="menu">
+            <div class="menu-branding">
+                <div class="portrait"></div>
+            </div>
+            <ul class="menu-nav">
+                <li class="nav-item ">
+                    <a href="/index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item ">
+                    <a href="/discs/about.html" class="nav-link">About Me </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/discs/work.html" class="nav-link">MY WORK</a>
+                </li>
+                <li class="nav-item current">
+                    <a href="/discs/contact.html" class="nav-link">Reaching Me </a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://nazeefnezzi.github.io/cv.html" class="nav-link" target="_blank"> CV </a>
+                </li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main id="contact">
+        <h1 class="lg-heading">
+            Connect <span class="text-warning">Me</span>
+        </h1>
+        <h2 class="sm-heading">
+            Here you can reach Me.
+        </h2>
+        <section>
+            <div class="container justify-content-center">
+                <div class="row mt-3">
+                    <div class="jumbotron col">
+                        <h3 class="display-3">Hello, </h3>
+                        <p class="lead">
+                           Mohammed Naseef Panthappilan
+                           <span class="badge badge-pill badge-warning">fullstack Developer</span>
+                        </p>
+                        <p class="lead">
+                            <a href="mailto:nazeefnezzi@outlook.de"><i class="fas fa-at"></i> nazeefnezzi@outlook.de</a>
+                             <br>
+                            <i class="fas fa-phone-square-alt"></i> +491788915148
+                         </p>
+                        <hr class="my-4">
+                        <p>Here you can ask all your questions and enquiries.</p>
+                        <p class="text-danger text-center">Don't worry, after your contact request you will get answer soon.. please be patiant. if you didn't get any answer with in 48 hours please try through contact by given mobile number or just click on the given email. </p>
+                      
+                      </div>
+        
+                    <form
+                    method="POST"
+                    action="send">
+                    <div class="col">
+                        
+                        <div class="form-group">
+                        <label class="col-form-label" for="name">Name</label>
+                        <input type="text" class="form-control" placeholder="Your Fullname Please" name="name">
+                        <label for="email"
+                        class="mt-3">
+                        Email address
+                        </label>
+                        <input type="email" class="form-control" name="email" aria-describedby="emailHelp" placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        <label class="col-form-label" for="phonenumber">Phone Number</label>
+                        <input type="number" class="form-control" placeholder="+49*********" name="phonenumber">
+                    
+                        <label
+                        for="address"
+                        class="mt-3">
+                                 Address
+                        </label>
+                        <input type="text" class="form-control" name="address" placeholder="1234 Main St">
+                    
+                        <label for="message">Example textarea</label>
+                        <textarea class="form-control" name="message" rows="4"></textarea>
+                    
+                        <p align="right">
+                            <button type="submit" class="btn btn-success mt-2">
+                            Send <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </p>
+                        
+                          </div>
+                        </form>
+                    </div>
+                </div>
+                
+           
+        
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer id="main-footer">
+        Copyright &copy; 2019 Mohammed Naseef Panthappilan.
+
+    </footer>
+
+    <script src="../JS/main.js"></script>
+</body>
+</html>
